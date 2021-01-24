@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Choose from './components/choose';
 import Count from './components/count';
+import { useSelector } from 'react-redux';
 import Materials from "./components/materials";
 import WallperParametrs from "./components/wallper-parametrs";
 import Result from "./components/result";
 import './styles/app.scss';
+import { useEffect, useState } from "react";
 
 function App() {
   return (

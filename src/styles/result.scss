@@ -21,7 +21,30 @@
         display: flow-root;
     }
 
+    &__success {
+        display: flex;
+        background: lightgray;
+        justify-content: center;
+        color: #6576c7;
+    }
+
+    &__success-answer{
+        display: flex;
+        justify-content: center;
+        color: #6576c7;
+    }
+
+    &__error {
+        display: flex;
+        justify-content: center;
+        color: #6576c7;
+    }
     
+    &__error-answer{
+        display: flex;
+        justify-content: center;
+        color: #c71212;
+    }
 
     &__buttons {
         display: flex;
