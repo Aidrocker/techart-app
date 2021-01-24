@@ -1,0 +1,45 @@
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+    .container {
+        border: 1px solid black;
+        width: 20vw;
+    }
+
+    &__step {
+        text-align: center;
+        color: #dbd7d7;
+    }
+
+    &__question {
+        background-color: #dbd7d7;
+        color: #6576c7;
+        text-align: center;
+        display: flow-root;
+    }
+
+    &__answers {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+        width: 20vw;
+        justify-content: center;
+
+    }
+
+    &__cancel {
+        .btn-cancel {
+           margin-left: 1rem;
+        }
+    }
+}
